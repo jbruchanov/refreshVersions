@@ -88,7 +88,7 @@ data class Version(val value: String) : Comparable<Version> {
                                 return -1
                             } else {
                                 check(e2 is StabilityLevel)
-                                return -1
+                                return +1
                             }
                         }
                         else -> {
@@ -100,7 +100,7 @@ data class Version(val value: String) : Comparable<Version> {
                                 return -1
                             } else {
                                 check(e2 is String)
-                                return +1
+                                return -1
                             }
                         }
                     }
