@@ -6,6 +6,7 @@ plugins {
     id("com.gradle.develocity").version("4.1")
     id("de.fayard.refreshVersions") version "0.60.6" // Needed, but must match convention-plugins'.
     id("org.splitties.version-sync") version "0.2.6"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
 dependencyResolutionManagement {
